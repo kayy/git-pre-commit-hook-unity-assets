@@ -2,7 +2,7 @@ git-pre-commit-hook-unity-assets
 ================================
 
 Pre-commit hook script for Unity to check that every folder that just has marked to be ignored in .gitignore 
-has an entry for its meta file to be ignored too.
+has an entry for its meta file to be ignored too. Only sub-directories under folder Assets are checked.
 
 Example: MyProject/Assets/Imports/LocalTest is a new folder that should not be under version control. So in 
 .gitignore there is a new line:
